@@ -1,0 +1,19 @@
+{
+  "item_name": "Electronic Cables and Wires",
+  "hazard_level": "Low to Moderate",
+  "hazards": [
+    "Exposed copper strands can cause cuts or electrical shorts if plugged in. Older PVC insulation contains lead stabilizers and phthalates."
+  ],
+  "safe_handling": [
+    "Unplug cables from all power sources before handling. Coil wires neatly and secure them with ties to prevent tangling."
+  ],
+  "unsafe_actions": [
+    "Never burn plastic cable insulation to strip copper wires. Do not throw electronic cables into standard household trash bins."
+  ],
+  "what_to_do_if_damaged": "Wrap frayed or exposed wires with electrical tape and immediately remove them from use to prevent shock or fire hazards.",
+  "disposal_route": "Drop off at an authorized e-waste collection bin or certified electronic scrap recycler.",
+  "recoverable_materials": [
+    "Copper, aluminum, and recyclable thermoplastics."
+  ],
+  "environmental_impact": "Burning PVC cable coatings releases toxic hydrochloric acid gas and dioxins, while landfilling wastes valuable copper resources."
+}

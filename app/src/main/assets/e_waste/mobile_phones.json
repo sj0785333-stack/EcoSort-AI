@@ -1,0 +1,26 @@
+{
+  "item_name": "Mobile Phone / Smartphone",
+  "hazard_level": "High",
+  "hazards": [
+    "Fire and thermal-runaway risk from punctured or crushed lithium-ion batteries",
+    "Lead, arsenic, cadmium, and brominated flame retardants in screens and internal boards"
+  ],
+  "safe_handling": [
+    "Back up data and perform a factory reset",
+    "Power off the device completely and remove SIM/SD cards",
+    "Store flat in a cool, dry place away from sharp or metallic objects"
+  ],
+  "unsafe_actions": [
+    "Do not pry out glued-in batteries using sharp metal tools",
+    "Do not bend, crush, or puncture the phone",
+    "Never throw into household garbage"
+  ],
+  "what_to_do_if_damaged": "Stop using and charging the phone. If its battery is swollen, hot, hissing, smoking, or leaking, do not touch or move it. Keep people away, avoid fumes, and contact a qualified technician or emergency services. For broken glass without battery damage, avoid direct contact and arrange safe collection.",
+  "disposal_route": "Return through brand take-back/exchange programs, certified refurbishers (if functional), or a CPCB-registered e-waste recycler.",
+  "recoverable_materials": [
+    "High-purity gold, silver, palladium, and copper (circuitry)",
+    "Cobalt, lithium, and graphite (battery)",
+    "Aluminum and glass"
+  ],
+  "environmental_impact": "Informal acid-leaching and open burning release toxic heavy metals and poisonous fumes, while landfilling wastes scarce precious and rare-earth metals."
+}

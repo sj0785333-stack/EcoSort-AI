@@ -1,0 +1,19 @@
+{
+  "item_name": "Light Bulbs (CFL, LED, and Incandescent)",
+  "hazard_level": "High (CFL / Fluorescent) to Low (LED and Incandescent)",
+  "hazards": [
+    "Compact Fluorescent Lamps (CFLs) contain toxic mercury vapor and phosphor powder. Broken glass poses severe cut hazards, and LEDs contain electronic driver components with lead."
+  ],
+  "safe_handling": [
+    "Hold bulbs by the plastic or metal base rather than the glass tube. Store used bulbs in their original cardboard sleeves to prevent breakage."
+  ],
+  "unsafe_actions": [
+    "Never throw CFL or LED bulbs into regular household garbage or standard glass recycling bins. Do not vacuum broken CFL glass, as this spreads mercury vapor into the air."
+  ],
+  "what_to_do_if_damaged": "Open windows and leave the room for 15 minutes if a CFL breaks. Scoop up glass and powder using stiff cardboard, wipe the area with a damp paper towel, and seal everything in a glass jar or double plastic bag.",
+  "disposal_route": "Hand over CFLs and LEDs to an authorized e-waste or hazardous lamp collection point.",
+  "recoverable_materials": [
+    "Aluminum, copper, glass, rare earth phosphors (from CFLs), and circuit board metals (from LEDs)."
+  ],
+  "environmental_impact": "Broken CFLs release mercury that contaminates water bodies and enters the food chain, while discarded LEDs leach heavy metals into landfills."
+}

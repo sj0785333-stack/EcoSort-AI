@@ -1,0 +1,28 @@
+{
+  "item_name": "Capacitor (Electrolytic, Ceramic, Tantalum & Film Capacitors)",
+  "hazard_level": "Low to Moderate (High if electrolytic capacitors leak or legacy units contain PCBs)",
+  "hazards": [
+    "Stored residual high-voltage electrical charge in large power-supply capacitors",
+    "Corrosive chemical electrolytes inside aluminum electrolytic capacitors",
+    "Lead in older solder terminations and polychlorinated biphenyls (PCBs) in pre-1980s industrial capacitors"
+  ],
+  "safe_handling": [
+    "Safely discharge large capacitors with a bleed resistor before handling",
+    "Handle loose or leaking capacitors using insulated tweezers or nitrile gloves",
+    "Store in dry, rigid, non-conductive containers away from heat sources"
+  ],
+  "unsafe_actions": [
+    "Never puncture, crush, or incinerate capacitors (high risk of bursting or explosion)",
+    "Never touch bare leads of large charged capacitors directly",
+    "Do not throw loose capacitors into regular dustbins or wash leaking fluid down drains"
+  ],
+  "what_to_do_if_damaged": "If a capacitor is bulging, vented, or leaking electrolyte, avoid bare-skin contact. Wear nitrile gloves, wipe any residue with a disposable absorbent cloth, and seal both the capacitor and cloth in a labeled hazardous e-waste pouch.",
+  "disposal_route": "Segregate and hand over to a CPCB-authorized e-waste dismantler or hazardous electronic waste treatment facility (TSDF); legacy PCB-containing capacitors require specialized hazardous waste incineration.",
+  "recoverable_materials": [
+    "Aluminum (cans and etched foils)",
+    "Tantalum and manganese dioxide (tantalum capacitors)",
+    "Silver, palladium, and copper (SMD terminations and leads)",
+    "Ceramic and polymer dielectric films"
+  ],
+  "environmental_impact": "Improper dumping or burning causes electrolytic chemicals, heavy metals, and toxic gases to leach into soil, groundwater, and air."
+}

@@ -1,0 +1,19 @@
+{
+  "item_name": "Electronic Resistors (Carbon Film, Metal Film, and Wirewound)",
+  "hazard_level": "Low to Moderate",
+  "hazards": [
+    "Older or industrial resistors may contain lead-based solder coatings or ceramic dust if crushed. Sharp wire leads can prick skin."
+  ],
+  "safe_handling": [
+    "Keep loose resistors inside a small container or zip-lock bag so wire leads do not scatter."
+  ],
+  "unsafe_actions": [
+    "Do not burn components or dispose of bulk electronic parts in regular household waste."
+  ],
+  "what_to_do_if_damaged": "Sweep up cracked ceramic pieces with a brush and seal them in a small bag before placing them in e-waste collection.",
+  "disposal_route": "Submit with mixed electronic components at an authorized e-waste collection center.",
+  "recoverable_materials": [
+    "Copper leads, steel caps, and trace nickel or chromium alloys."
+  ],
+  "environmental_impact": "Landfilling large quantities of electronic components introduces lead solder and non-biodegradable ceramics into soil."
+}

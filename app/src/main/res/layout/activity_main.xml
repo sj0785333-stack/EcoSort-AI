@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F0E6">
+
+    <!-- MAIN SCREEN -->
+
+    <LinearLayout
+        android:id="@+id/mainContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg_ecosort_home"
+        android:padding="20dp">
+
+        <!-- HEADER -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="12dp"
+            android:paddingBottom="18dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="♻ EcoSort AI"
+                android:textColor="#F7F4E8"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:fontFamily="serif"/>
+
+            <TextView
+                android:id="@+id/historyButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="☰"
+                android:textColor="#E6F6F1"
+                android:textSize="27sp"
+                android:padding="8dp"
+                android:clickable="true"
+                android:focusable="true"/>
+
+        </LinearLayout>
+
+
+        <!-- CONTENT AREA -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <!-- WELCOME SCREEN -->
+
+            <LinearLayout
+                android:id="@+id/welcomeSection"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hello!"
+                    android:textColor="#F7F4E8"
+                    android:textSize="38sp"
+                    android:fontFamily="serif"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your Smart E-Waste Assistant"
+                    android:textColor="#E5EBDD"
+                    android:textSize="15sp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="serif"/>
+
+                <!-- AI ORB -->
+
+                <FrameLayout
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="24dp">
+
+                    <ImageView
+                        android:id="@+id/orbImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/bg_ecosort_orb"
+                        android:scaleType="fitCenter"
+                        android:contentDescription="EcoSort AI glowing orb"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="✦"
+                        android:textSize="42sp"
+                        android:textColor="#F8E7A6"
+                        android:shadowColor="#FFF2C2"
+                        android:shadowRadius="12"
+                        android:fontFamily="serif"/>
+
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ask me anything about electronic waste, recycling and safe disposal."
+                    android:textColor="#F7F4E8"
+                    android:textSize="17sp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:layout_marginTop="36dp"
+                    android:padding="12dp"/>
+
+            </LinearLayout>
+
+
+            <!-- CHAT SCREEN -->
+
+            <ScrollView
+                android:id="@+id/chatScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:fillViewport="true"
+                android:clipToPadding="false"
+                android:paddingBottom="12dp">
+
+                <LinearLayout
+                    android:id="@+id/chatContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="8dp"/>
+
+            </ScrollView>
+
+        </FrameLayout>
+
+
+        <!-- MESSAGE INPUT -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_ecosort_input"
+            android:padding="8dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/cameraButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="📷"
+                android:textSize="23sp"
+                android:padding="4dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:contentDescription="Take a photo"/>
+
+            <ImageView
+                android:id="@+id/photoPreview"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:scaleType="centerCrop"
+                android:visibility="gone"
+                android:contentDescription="Selected e-waste photo"/>
+
+            <EditText
+                android:id="@+id/userInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="48dp"
+                android:maxLines="4"
+                android:background="@android:color/transparent"
+                android:textColor="#174B3A"
+                android:textColorHint="#788C7F"
+                android:hint="Ask EcoSort AI..."
+                android:inputType="textCapSentences|textMultiLine"
+                android:imeOptions="actionSend"
+                android:fontFamily="serif"
+                android:padding="8dp"/>
+
+            <Button
+                android:id="@+id/sendButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:text="➤"
+                android:textSize="23sp"
+                android:textColor="#F7F4E8"
+                android:backgroundTint="#005B46"
+                android:gravity="center"
+                android:padding="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!-- HISTORY DRAWER -->
+
+    <LinearLayout
+        android:id="@+id/historyDrawer"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        android:background="#174B3A"
+        android:padding="22dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EcoSort History"
+            android:textColor="#F5F0E6"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:paddingTop="20dp"
+            android:paddingBottom="28dp"/>
+
+        <Button
+            android:id="@+id/newChatButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+  New Chat"
+            android:textColor="#0E8760"
+            android:backgroundTint="#F5F0E6"/>
+
+        <EditText
+            android:id="@+id/searchHistory"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:hint="Search conversations..."
+            android:textColor="#FFFFFF"
+            android:textColorHint="#C5D5CC"
+            android:singleLine="true"
+            android:backgroundTint="#C5D5CC"
+            android:fontFamily="serif"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recent conversations"
+            android:textColor="#C5D5CC"
+            android:textSize="14sp"
+            android:layout_marginTop="30dp"
+            android:paddingBottom="12dp"/>
+
+        <ScrollView
+            android:id="@+id/historyScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fillViewport="true"
+            android:clipToPadding="false"
+            android:paddingBottom="12dp">
+
+            <LinearLayout
+                android:id="@+id/historyList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+
+        </ScrollView>
+
+        <!-- PROFILE AREA -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="12dp"
+            android:background="#547365" />
+
+        <LinearLayout
+            android:id="@+id/profileButton"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:gravity="center"
+                android:text="E"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#174B3A"
+                android:background="#F5F0E6" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EcoSort User"
+                    android:textColor="#F5F0E6"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Personal profile"
+                    android:textColor="#C5D5CC"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/profileMenuButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="⋮"
+                android:textSize="24sp"
+                android:textColor="#F5F0E6"
+                android:clickable="true"
+                android:focusable="true"
+                android:contentDescription="Profile menu"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

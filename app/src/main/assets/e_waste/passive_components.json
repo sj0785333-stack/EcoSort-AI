@@ -1,0 +1,28 @@
+{
+  "item_name": "Passive Electronic Components (Resistors, Capacitors, Inductors, Ferrite Beads)",
+  "hazard_level": "Low to Moderate (High if old electrolytic or tantalum capacitors leak)",
+  "hazards": [
+    "Lead in older capacitor/resistor terminations and solder",
+    "Corrosive chemical electrolytes inside electrolytic capacitors",
+    "Polychlorinated biphenyls (PCBs) in rare legacy capacitors"
+  ],
+  "safe_handling": [
+    "Handle loose components using tweezers or nitrile gloves",
+    "Store in sealed, labeled antistatic bags or rigid containers",
+    "Avoid inhaling dust from broken ferrite cores"
+  ],
+  "unsafe_actions": [
+    "Never puncture, crush, or apply direct flame to capacitors (burst risk)",
+    "Do not sweep loose components into regular dustbins",
+    "Do not wash leaking electrolytes down drains"
+  ],
+  "what_to_do_if_damaged": "Avoid bare-skin contact with bulging or leaking capacitors. Wear gloves, wipe residue with a disposable cloth, and seal both the component and cloth in a labeled hazardous e-waste pouch.",
+  "disposal_route": "Hand over sorted components to an authorized e-waste dismantler/recycler or hazardous waste treatment facility (TSDF) for safe metal and ceramic recovery.",
+  "recoverable_materials": [
+    "Copper (inductor windings)",
+    "Aluminum and tantalum (capacitors)",
+    "Silver and palladium (SMD terminations)",
+    "Tin and ceramic/ferrite substrates"
+  ],
+  "environmental_impact": "Tiny loose components easily enter soil and waterways during informal dumping, slowly leaching heavy metals and chemical electrolytes into local ecosystems."
+}

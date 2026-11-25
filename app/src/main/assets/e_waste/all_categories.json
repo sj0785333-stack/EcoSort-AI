@@ -1,0 +1,347 @@
+{
+  "batteries.json": {
+    "item_name": "Batteries (Lithium-Ion, LiPo, Alkaline, and NiMH Cells)",
+    "hazard_level": "High",
+    "hazards": [
+      "Severe fire, explosion, and thermal-runaway risk if punctured, crushed, or short-circuited",
+      "Toxic and flammable electrolyte leakage (hydrofluoric acid vapors when burning)",
+      "Heavy metals such as cobalt, nickel, and lead (in legacy/button cells)"
+    ],
+    "safe_handling": [
+      "Tape exposed metal terminals with non-conductive electrical or masking tape",
+      "Store individually in a cool, dry, non-metallic container away from direct sunlight",
+      "Keep separate from other metallic e-waste to prevent accidental short circuits"
+    ],
+    "unsafe_actions": [
+      "Never puncture, crush, bend, or disassemble battery packs",
+      "Never throw batteries into regular household garbage or burn them",
+      "Do not store loose batteries jumbled together with untaped terminals"
+    ],
+    "what_to_do_if_damaged": "If a battery is swollen, hot, hissing, smoking, or leaking, do not touch, move, puncture, or attempt to contain it. Keep people away, avoid inhaling fumes, and alert the laboratory supervisor or local emergency services. Follow the instructions of trained responders.",
+    "disposal_route": "Deposit at a designated battery drop-off bin, retail take-back counter, or CPCB-registered battery recycler under Battery Waste Management Rules.",
+    "recoverable_materials": [
+      "Lithium, cobalt, nickel, and manganese (from cathode black mass)",
+      "Graphite (anode)",
+      "Copper and aluminum foils",
+      "Steel or aluminum casing"
+    ],
+    "environmental_impact": "Landfilled batteries frequently spark fires in waste trucks and dumpsites, while leaking electrolytes and heavy metals contaminate soil and groundwater."
+  },
+  "bulbs.json": {
+    "item_name": "Light Bulbs (CFL, LED, and Incandescent)",
+    "hazard_level": "High (CFL / Fluorescent) to Low (LED and Incandescent)",
+    "hazards": [
+      "Compact Fluorescent Lamps (CFLs) contain toxic mercury vapor and phosphor powder. Broken glass poses severe cut hazards, and LEDs contain electronic driver components with lead."
+    ],
+    "safe_handling": [
+      "Hold bulbs by the plastic or metal base rather than the glass tube. Store used bulbs in their original cardboard sleeves to prevent breakage."
+    ],
+    "unsafe_actions": [
+      "Never throw CFL or LED bulbs into regular household garbage or standard glass recycling bins. Do not vacuum broken CFL glass, as this spreads mercury vapor into the air."
+    ],
+    "what_to_do_if_damaged": "Open windows and leave the room for 15 minutes if a CFL breaks. Scoop up glass and powder using stiff cardboard, wipe the area with a damp paper towel, and seal everything in a glass jar or double plastic bag.",
+    "disposal_route": "Hand over CFLs and LEDs to an authorized e-waste or hazardous lamp collection point.",
+    "recoverable_materials": [
+      "Aluminum, copper, glass, rare earth phosphors (from CFLs), and circuit board metals (from LEDs)."
+    ],
+    "environmental_impact": "Broken CFLs release mercury that contaminates water bodies and enters the food chain, while discarded LEDs leach heavy metals into landfills."
+  },
+  "cables.json": {
+    "item_name": "Electronic Cables and Wires",
+    "hazard_level": "Low to Moderate",
+    "hazards": [
+      "Exposed copper strands can cause cuts or electrical shorts if plugged in. Older PVC insulation contains lead stabilizers and phthalates."
+    ],
+    "safe_handling": [
+      "Unplug cables from all power sources before handling. Coil wires neatly and secure them with ties to prevent tangling."
+    ],
+    "unsafe_actions": [
+      "Never burn plastic cable insulation to strip copper wires. Do not throw electronic cables into standard household trash bins."
+    ],
+    "what_to_do_if_damaged": "Wrap frayed or exposed wires with electrical tape and immediately remove them from use to prevent shock or fire hazards.",
+    "disposal_route": "Drop off at an authorized e-waste collection bin or certified electronic scrap recycler.",
+    "recoverable_materials": [
+      "Copper, aluminum, and recyclable thermoplastics."
+    ],
+    "environmental_impact": "Burning PVC cable coatings releases toxic hydrochloric acid gas and dioxins, while landfilling wastes valuable copper resources."
+  },
+  "capacitors.json": {
+    "item_name": "Capacitor (Electrolytic, Ceramic, Tantalum & Film Capacitors)",
+    "hazard_level": "Low to Moderate (High if electrolytic capacitors leak or legacy units contain PCBs)",
+    "hazards": [
+      "Stored residual high-voltage electrical charge in large power-supply capacitors",
+      "Corrosive chemical electrolytes inside aluminum electrolytic capacitors",
+      "Lead in older solder terminations and polychlorinated biphenyls (PCBs) in pre-1980s industrial capacitors"
+    ],
+    "safe_handling": [
+      "Safely discharge large capacitors with a bleed resistor before handling",
+      "Handle loose or leaking capacitors using insulated tweezers or nitrile gloves",
+      "Store in dry, rigid, non-conductive containers away from heat sources"
+    ],
+    "unsafe_actions": [
+      "Never puncture, crush, or incinerate capacitors (high risk of bursting or explosion)",
+      "Never touch bare leads of large charged capacitors directly",
+      "Do not throw loose capacitors into regular dustbins or wash leaking fluid down drains"
+    ],
+    "what_to_do_if_damaged": "If a capacitor is bulging, vented, or leaking electrolyte, avoid bare-skin contact. Wear nitrile gloves, wipe any residue with a disposable absorbent cloth, and seal both the capacitor and cloth in a labeled hazardous e-waste pouch.",
+    "disposal_route": "Segregate and hand over to a CPCB-authorized e-waste dismantler or hazardous electronic waste treatment facility (TSDF); legacy PCB-containing capacitors require specialized hazardous waste incineration.",
+    "recoverable_materials": [
+      "Aluminum (cans and etched foils)",
+      "Tantalum and manganese dioxide (tantalum capacitors)",
+      "Silver, palladium, and copper (SMD terminations and leads)",
+      "Ceramic and polymer dielectric films"
+    ],
+    "environmental_impact": "Improper dumping or burning causes electrolytic chemicals, heavy metals, and toxic gases to leach into soil, groundwater, and air."
+  },
+  "circuit_boards.json": {
+    "item_name": "Circuit Board (Printed Circuit Board / PCB — Populated & Bare)",
+    "hazard_level": "High",
+    "hazards": [
+      "Lead-tin solder and brominated flame retardants (BFRs) in FR-4 fiberglass resin",
+      "Beryllium copper in edge connectors and sockets",
+      "Trace cadmium, chromium, and mercury in mounted ICs and switches"
+    ],
+    "safe_handling": [
+      "Hold circuit boards by the edges wearing gloves to avoid sharp solder pins and fiberglass splinters",
+      "Store upright or stacked neatly in dry, non-conductive bins",
+      "Wash hands thoroughly after handling"
+    ],
+    "unsafe_actions": [
+      "Never burn circuit boards in open air to melt solder",
+      "Never use unventilated acid baths to strip gold",
+      "Do not saw, drill, or sand FR-4 boards without dust extraction"
+    ],
+    "what_to_do_if_damaged": "If a board is snapped, cracked, or delaminated, wear gloves and a dust mask to avoid inhaling fiberglass dust, sweep fragments carefully, and seal them in a puncture-resistant container.",
+    "disposal_route": "Channel directly to a CPCB-registered e-waste dismantler or precious-metal recycler; never sell to informal scrap dealers.",
+    "recoverable_materials": [
+      "Copper (15-20% by weight)",
+      "Gold, silver, and palladium",
+      "Tin and nickel",
+      "Fiberglass-resin composites"
+    ],
+    "environmental_impact": "Open burning and crude acid stripping of circuit boards are major sources of dioxin, furan, and heavy-metal contamination in air, soil, and groundwater."
+  },
+  "integrated_circuits.json": {
+    "item_name": "Integrated Circuits (ICs / Microchips, Microcontrollers & SMD Packages)",
+    "hazard_level": "Moderate to High",
+    "hazards": [
+      "Lead-tin solder on pins and BGA balls (especially in older or non-RoHS chips)",
+      "Brominated flame retardants (BFRs) and antimony trioxide in epoxy molding compounds",
+      "Trace arsenic, gallium, cadmium, and beryllium oxide in semiconductor dies and packages"
+    ],
+    "safe_handling": [
+      "Handle loose ICs with tweezers or gloves to avoid bent-pin punctures",
+      "Store in antistatic tubes, ESD foam, or sealed rigid containers",
+      "Keep away from moisture and avoid crushing ceramic or epoxy packages"
+    ],
+    "unsafe_actions": [
+      "Never burn epoxy IC packages in open air to extract gold bonding wires",
+      "Never use open-air nitric/hydrochloric acid baths to dissolve chip casings",
+      "Do not discard loose chips into regular lab dustbins or sinks"
+    ],
+    "what_to_do_if_damaged": "If an IC package is cracked or shattered, wear gloves and a mask to avoid inhaling fine silica/epoxy dust, sweep fragments onto paper, and seal them in a labeled e-waste container.",
+    "disposal_route": "Collect in segregated electronic component bins and send to a CPCB-authorized precious-metal e-waste refiner or hazardous electronic waste facility.",
+    "recoverable_materials": [
+      "Gold (internal wire bonds and lead-frame plating)",
+      "Copper and nickel-iron alloys (lead frames)",
+      "Silver and palladium",
+      "High-purity silicon wafers"
+    ],
+    "environmental_impact": "Acid leaching and open burning of ICs by informal recyclers emit highly toxic dioxins, furans, and acid fumes while contaminating local water bodies with heavy metals."
+  },
+  "jumper_wires.json": {
+    "item_name": "Jumper Wires (Male-to-Male, Male-to-Female, and Female-to-Female)",
+    "hazard_level": "Low (May become Moderate when insulation is damaged or wires are connected to powered circuits)",
+    "hazards": [
+      "Exposed conductors can cause short circuits, overheating, minor burns, and damage to electronic components. Damaged insulation may expose users to electrical hazards depending on the circuit voltage."
+    ],
+    "safe_handling": [
+      "Disconnect the power supply before connecting or removing jumper wires. Inspect the insulation and connectors regularly. Store wires in a dry, organised container and use wires suitable for the circuit."
+    ],
+    "unsafe_actions": [
+      "Do not pull wires forcefully, use wires with damaged insulation, connect exposed ends incorrectly, or allow bare conductors to touch each other in powered circuits."
+    ],
+    "what_to_do_if_damaged": "Switch off and disconnect the power supply before handling the wire. Remove the damaged wire and replace it. Keep damaged wires separately for appropriate cable recycling.",
+    "disposal_route": "Collect separately as electronic cable waste and send to an authorised e-waste or cable recycling facility. Reuse wires that are still in safe working condition.",
+    "recoverable_materials": [
+      "Copper or tinned copper conductors, metal connector contacts, and insulation materials such as PVC or silicone, depending on the wire type."
+    ],
+    "environmental_impact": "Improper disposal increases plastic waste and wastes recoverable copper. Burning cable insulation can release harmful fumes and contaminate the surrounding environment."
+  },
+  "keyboards.json": {
+    "item_name": "Computer Keyboard (Wired and Wireless)",
+    "hazard_level": "Low to Moderate",
+    "hazards": [
+      "Contains brominated flame retardants in plastic casings, lead solder on internal key matrix circuits, and batteries in wireless models."
+    ],
+    "safe_handling": [
+      "Unplug wired keyboards or remove AA/AAA batteries from wireless keyboards before storage or disposal."
+    ],
+    "unsafe_actions": [
+      "Do not burn plastic keycaps or throw whole keyboards into regular municipal trash bins."
+    ],
+    "what_to_do_if_damaged": "Tape over cracked plastic edges and place loose keycaps or exposed internal circuit sheets inside a sealed bag.",
+    "disposal_route": "Drop off at an authorized e-waste collection bin or certified electronics recycling center.",
+    "recoverable_materials": [
+      "ABS/HIPS plastics, copper wiring, steel backplates, and small circuit board metals."
+    ],
+    "environmental_impact": "Landfilling takes centuries to degrade and leaches brominated flame retardants and heavy metals into soil."
+  },
+  "laptops.json": {
+    "item_name": "Laptop / Notebook Computer",
+    "hazard_level": "High",
+    "hazards": [
+      "High-capacity lithium-ion battery pack posing fire and thermal-runaway risks if damaged",
+      "Lead-based solder, brominated flame retardants (BFRs), and beryllium copper on motherboards",
+      "Trace mercury in older CCFL-backlit LCD displays and arsenic/cadmium in semiconductors"
+    ],
+    "safe_handling": [
+      "Back up personal files and securely wipe/reset the storage drive",
+      "Power off completely and remove external accessories (USB dongles, SD cards)",
+      "Carry and store flat in a dry space without stacking heavy items on the lid"
+    ],
+    "unsafe_actions": [
+      "Never pry out an internal pouch battery with sharp screwdrivers or metal tools",
+      "Do not smash the display screen or burn plastic casings",
+      "Never dispose of laptops in municipal solid waste"
+    ],
+    "what_to_do_if_damaged": "If the screen is cracked, cover it with clear tape to prevent glass injuries. If the chassis is bulging or hot due to a swollen battery, isolate the laptop in a cool, fire-safe area and hand it directly to trained e-waste staff.",
+    "disposal_route": "Hand over to an OEM brand take-back center, certified IT asset refurbisher (if working), or a CPCB/SPCB-authorized e-waste recycler.",
+    "recoverable_materials": [
+      "Aluminum and magnesium alloy chassis",
+      "Gold, silver, palladium, and copper (motherboard and connectors)",
+      "Lithium, cobalt, and graphite (battery pack)",
+      "Neodymium magnets (speakers and cooling fans) and high-grade ABS plastics"
+    ],
+    "environmental_impact": "Improper dismantling releases toxic dioxins, heavy metals, and flame retardants into air and water, while wasting high-value precious and rare-earth metals."
+  },
+  "mice.json": {
+    "item_name": "Computer Mouse (Wired / Wireless Optical)",
+    "hazard_level": "Low to Moderate (Moderate if containing a rechargeable lithium-ion battery)",
+    "hazards": [
+      "Lead-based solder in older circuit boards",
+      "Brominated flame retardants (BFRs) in the plastic shell",
+      "Alkaline or lithium-ion batteries in wireless models"
+    ],
+    "safe_handling": [
+      "Remove any removable AA/AAA batteries before storage",
+      "Keep the outer casing intact",
+      "Store in a dry e-waste bin"
+    ],
+    "unsafe_actions": [
+      "Do not crush or break the plastic housing",
+      "Do not burn cables or plastic shells",
+      "Do not dispose in regular municipal trash"
+    ],
+    "what_to_do_if_damaged": "If the casing is cracked, avoid sharp edges and place the mouse aside for authorised collection. If an internal battery is swollen, hot, or leaking, do not remove or handle it; keep people away and contact a qualified technician or emergency services as appropriate.",
+    "disposal_route": "Segregate removable batteries for battery recycling and hand the mouse over to a CPCB/SPCB-authorized e-waste recycler or PRO collection center.",
+    "recoverable_materials": [
+      "Copper (wiring and motor coils)",
+      "ABS and polycarbonate plastics",
+      "Trace gold and silver on circuit contacts",
+      "Steel and aluminum from scroll mechanisms"
+    ],
+    "environmental_impact": "Improper dumping causes microplastic pollution and leaches heavy metals and flame retardants into soil and groundwater; burning wires releases toxic dioxins."
+  },
+  "passive_components.json": {
+    "item_name": "Passive Electronic Components (Resistors, Capacitors, Inductors, Ferrite Beads)",
+    "hazard_level": "Low to Moderate (High if old electrolytic or tantalum capacitors leak)",
+    "hazards": [
+      "Lead in older capacitor/resistor terminations and solder",
+      "Corrosive chemical electrolytes inside electrolytic capacitors",
+      "Polychlorinated biphenyls (PCBs) in rare legacy capacitors"
+    ],
+    "safe_handling": [
+      "Handle loose components using tweezers or nitrile gloves",
+      "Store in sealed, labeled antistatic bags or rigid containers",
+      "Avoid inhaling dust from broken ferrite cores"
+    ],
+    "unsafe_actions": [
+      "Never puncture, crush, or apply direct flame to capacitors (burst risk)",
+      "Do not sweep loose components into regular dustbins",
+      "Do not wash leaking electrolytes down drains"
+    ],
+    "what_to_do_if_damaged": "Avoid bare-skin contact with bulging or leaking capacitors. Wear gloves, wipe residue with a disposable cloth, and seal both the component and cloth in a labeled hazardous e-waste pouch.",
+    "disposal_route": "Hand over sorted components to an authorized e-waste dismantler/recycler or hazardous waste treatment facility (TSDF) for safe metal and ceramic recovery.",
+    "recoverable_materials": [
+      "Copper (inductor windings)",
+      "Aluminum and tantalum (capacitors)",
+      "Silver and palladium (SMD terminations)",
+      "Tin and ceramic/ferrite substrates"
+    ],
+    "environmental_impact": "Tiny loose components easily enter soil and waterways during informal dumping, slowly leaching heavy metals and chemical electrolytes into local ecosystems."
+  },
+  "pcbs.json": {
+    "item_name": "Printed Circuit Board (PCB / Populated & Bare Circuit Boards)",
+    "hazard_level": "High",
+    "hazards": [
+      "Lead-tin solder and brominated flame retardants (BFRs) in FR-4 fiberglass resin",
+      "Beryllium copper in connectors",
+      "Trace cadmium, chromium, and mercury in mounted ICs and switches"
+    ],
+    "safe_handling": [
+      "Hold boards by the edges wearing gloves to avoid sharp pins and fiberglass splinters",
+      "Store upright or stacked neatly in dry non-conductive bins",
+      "Wash hands thoroughly after handling"
+    ],
+    "unsafe_actions": [
+      "Never burn PCBs in open air to melt solder",
+      "Never use unventilated acid baths to strip gold",
+      "Do not saw, drill, or sand FR-4 boards without dust extraction"
+    ],
+    "what_to_do_if_damaged": "If a board is snapped or delaminated, wear gloves and a dust mask to avoid inhaling fiberglass dust, carefully sweep fragments, and seal them in a puncture-resistant container.",
+    "disposal_route": "Channel directly to a CPCB-registered e-waste dismantler or precious-metal recycler; never sell to informal scrap dealers.",
+    "recoverable_materials": [
+      "Copper (15-20% by weight)",
+      "Gold, silver, and palladium",
+      "Tin and nickel",
+      "Fiberglass-resin composites"
+    ],
+    "environmental_impact": "Open burning and crude acid stripping of PCBs are major sources of dioxin, furan, and heavy-metal contamination in air, soil, and groundwater."
+  },
+  "mobile_phones.json": {
+    "item_name": "Mobile Phone / Smartphone",
+    "hazard_level": "High",
+    "hazards": [
+      "Fire and thermal-runaway risk from punctured or crushed lithium-ion batteries",
+      "Lead, arsenic, cadmium, and brominated flame retardants in screens and internal boards"
+    ],
+    "safe_handling": [
+      "Back up data and perform a factory reset",
+      "Power off the device completely and remove SIM/SD cards",
+      "Store flat in a cool, dry place away from sharp or metallic objects"
+    ],
+    "unsafe_actions": [
+      "Do not pry out glued-in batteries using sharp metal tools",
+      "Do not bend, crush, or puncture the phone",
+      "Never throw into household garbage"
+    ],
+    "what_to_do_if_damaged": "Stop using and charging the phone. If its battery is swollen, hot, hissing, smoking, or leaking, do not touch or move it. Keep people away, avoid fumes, and contact a qualified technician or emergency services. For broken glass without battery damage, avoid direct contact and arrange safe collection.",
+    "disposal_route": "Return through brand take-back/exchange programs, certified refurbishers (if functional), or a CPCB-registered e-waste recycler.",
+    "recoverable_materials": [
+      "High-purity gold, silver, palladium, and copper (circuitry)",
+      "Cobalt, lithium, and graphite (battery)",
+      "Aluminum and glass"
+    ],
+    "environmental_impact": "Informal acid-leaching and open burning release toxic heavy metals and poisonous fumes, while landfilling wastes scarce precious and rare-earth metals."
+  },
+  "resistors.json": {
+    "item_name": "Electronic Resistors (Carbon Film, Metal Film, and Wirewound)",
+    "hazard_level": "Low to Moderate",
+    "hazards": [
+      "Older or industrial resistors may contain lead-based solder coatings or ceramic dust if crushed. Sharp wire leads can prick skin."
+    ],
+    "safe_handling": [
+      "Keep loose resistors inside a small container or zip-lock bag so wire leads do not scatter."
+    ],
+    "unsafe_actions": [
+      "Do not burn components or dispose of bulk electronic parts in regular household waste."
+    ],
+    "what_to_do_if_damaged": "Sweep up cracked ceramic pieces with a brush and seal them in a small bag before placing them in e-waste collection.",
+    "disposal_route": "Submit with mixed electronic components at an authorized e-waste collection center.",
+    "recoverable_materials": [
+      "Copper leads, steel caps, and trace nickel or chromium alloys."
+    ],
+    "environmental_impact": "Landfilling large quantities of electronic components introduces lead solder and non-biodegradable ceramics into soil."
+  }
+}

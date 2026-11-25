@@ -1,0 +1,28 @@
+{
+  "item_name": "Integrated Circuits (ICs / Microchips, Microcontrollers & SMD Packages)",
+  "hazard_level": "Moderate to High",
+  "hazards": [
+    "Lead-tin solder on pins and BGA balls (especially in older or non-RoHS chips)",
+    "Brominated flame retardants (BFRs) and antimony trioxide in epoxy molding compounds",
+    "Trace arsenic, gallium, cadmium, and beryllium oxide in semiconductor dies and packages"
+  ],
+  "safe_handling": [
+    "Handle loose ICs with tweezers or gloves to avoid bent-pin punctures",
+    "Store in antistatic tubes, ESD foam, or sealed rigid containers",
+    "Keep away from moisture and avoid crushing ceramic or epoxy packages"
+  ],
+  "unsafe_actions": [
+    "Never burn epoxy IC packages in open air to extract gold bonding wires",
+    "Never use open-air nitric/hydrochloric acid baths to dissolve chip casings",
+    "Do not discard loose chips into regular lab dustbins or sinks"
+  ],
+  "what_to_do_if_damaged": "If an IC package is cracked or shattered, wear gloves and a mask to avoid inhaling fine silica/epoxy dust, sweep fragments onto paper, and seal them in a labeled e-waste container.",
+  "disposal_route": "Collect in segregated electronic component bins and send to a CPCB-authorized precious-metal e-waste refiner or hazardous electronic waste facility.",
+  "recoverable_materials": [
+    "Gold (internal wire bonds and lead-frame plating)",
+    "Copper and nickel-iron alloys (lead frames)",
+    "Silver and palladium",
+    "High-purity silicon wafers"
+  ],
+  "environmental_impact": "Acid leaching and open burning of ICs by informal recyclers emit highly toxic dioxins, furans, and acid fumes while contaminating local water bodies with heavy metals."
+}

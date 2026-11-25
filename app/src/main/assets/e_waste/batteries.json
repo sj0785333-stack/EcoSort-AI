@@ -1,0 +1,28 @@
+{
+  "item_name": "Batteries (Lithium-Ion, LiPo, Alkaline, and NiMH Cells)",
+  "hazard_level": "High",
+  "hazards": [
+    "Severe fire, explosion, and thermal-runaway risk if punctured, crushed, or short-circuited",
+    "Toxic and flammable electrolyte leakage (hydrofluoric acid vapors when burning)",
+    "Heavy metals such as cobalt, nickel, and lead (in legacy/button cells)"
+  ],
+  "safe_handling": [
+    "Tape exposed metal terminals with non-conductive electrical or masking tape",
+    "Store individually in a cool, dry, non-metallic container away from direct sunlight",
+    "Keep separate from other metallic e-waste to prevent accidental short circuits"
+  ],
+  "unsafe_actions": [
+    "Never puncture, crush, bend, or disassemble battery packs",
+    "Never throw batteries into regular household garbage or burn them",
+    "Do not store loose batteries jumbled together with untaped terminals"
+  ],
+  "what_to_do_if_damaged": "If a battery is swollen, hot, hissing, smoking, or leaking, do not touch, move, puncture, or attempt to contain it. Keep people away, avoid inhaling fumes, and alert the laboratory supervisor or local emergency services. Follow the instructions of trained responders.",
+  "disposal_route": "Deposit at a designated battery drop-off bin, retail take-back counter, or CPCB-registered battery recycler under Battery Waste Management Rules.",
+  "recoverable_materials": [
+    "Lithium, cobalt, nickel, and manganese (from cathode black mass)",
+    "Graphite (anode)",
+    "Copper and aluminum foils",
+    "Steel or aluminum casing"
+  ],
+  "environmental_impact": "Landfilled batteries frequently spark fires in waste trucks and dumpsites, while leaking electrolytes and heavy metals contaminate soil and groundwater."
+}

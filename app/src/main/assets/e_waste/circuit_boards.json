@@ -1,0 +1,28 @@
+{
+  "item_name": "Circuit Board (Printed Circuit Board / PCB — Populated & Bare)",
+  "hazard_level": "High",
+  "hazards": [
+    "Lead-tin solder and brominated flame retardants (BFRs) in FR-4 fiberglass resin",
+    "Beryllium copper in edge connectors and sockets",
+    "Trace cadmium, chromium, and mercury in mounted ICs and switches"
+  ],
+  "safe_handling": [
+    "Hold circuit boards by the edges wearing gloves to avoid sharp solder pins and fiberglass splinters",
+    "Store upright or stacked neatly in dry, non-conductive bins",
+    "Wash hands thoroughly after handling"
+  ],
+  "unsafe_actions": [
+    "Never burn circuit boards in open air to melt solder",
+    "Never use unventilated acid baths to strip gold",
+    "Do not saw, drill, or sand FR-4 boards without dust extraction"
+  ],
+  "what_to_do_if_damaged": "If a board is snapped, cracked, or delaminated, wear gloves and a dust mask to avoid inhaling fiberglass dust, sweep fragments carefully, and seal them in a puncture-resistant container.",
+  "disposal_route": "Channel directly to a CPCB-registered e-waste dismantler or precious-metal recycler; never sell to informal scrap dealers.",
+  "recoverable_materials": [
+    "Copper (15-20% by weight)",
+    "Gold, silver, and palladium",
+    "Tin and nickel",
+    "Fiberglass-resin composites"
+  ],
+  "environmental_impact": "Open burning and crude acid stripping of circuit boards are major sources of dioxin, furan, and heavy-metal contamination in air, soil, and groundwater."
+}

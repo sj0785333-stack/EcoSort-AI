@@ -1,0 +1,19 @@
+{
+  "item_name": "Jumper Wires (Male-to-Male, Male-to-Female, and Female-to-Female)",
+  "hazard_level": "Low (May become Moderate when insulation is damaged or wires are connected to powered circuits)",
+  "hazards": [
+    "Exposed conductors can cause short circuits, overheating, minor burns, and damage to electronic components. Damaged insulation may expose users to electrical hazards depending on the circuit voltage."
+  ],
+  "safe_handling": [
+    "Disconnect the power supply before connecting or removing jumper wires. Inspect the insulation and connectors regularly. Store wires in a dry, organised container and use wires suitable for the circuit."
+  ],
+  "unsafe_actions": [
+    "Do not pull wires forcefully, use wires with damaged insulation, connect exposed ends incorrectly, or allow bare conductors to touch each other in powered circuits."
+  ],
+  "what_to_do_if_damaged": "Switch off and disconnect the power supply before handling the wire. Remove the damaged wire and replace it. Keep damaged wires separately for appropriate cable recycling.",
+  "disposal_route": "Collect separately as electronic cable waste and send to an authorised e-waste or cable recycling facility. Reuse wires that are still in safe working condition.",
+  "recoverable_materials": [
+    "Copper or tinned copper conductors, metal connector contacts, and insulation materials such as PVC or silicone, depending on the wire type."
+  ],
+  "environmental_impact": "Improper disposal increases plastic waste and wastes recoverable copper. Burning cable insulation can release harmful fumes and contaminate the surrounding environment."
+}

@@ -1,0 +1,19 @@
+{
+  "item_name": "Computer Keyboard (Wired and Wireless)",
+  "hazard_level": "Low to Moderate",
+  "hazards": [
+    "Contains brominated flame retardants in plastic casings, lead solder on internal key matrix circuits, and batteries in wireless models."
+  ],
+  "safe_handling": [
+    "Unplug wired keyboards or remove AA/AAA batteries from wireless keyboards before storage or disposal."
+  ],
+  "unsafe_actions": [
+    "Do not burn plastic keycaps or throw whole keyboards into regular municipal trash bins."
+  ],
+  "what_to_do_if_damaged": "Tape over cracked plastic edges and place loose keycaps or exposed internal circuit sheets inside a sealed bag.",
+  "disposal_route": "Drop off at an authorized e-waste collection bin or certified electronics recycling center.",
+  "recoverable_materials": [
+    "ABS/HIPS plastics, copper wiring, steel backplates, and small circuit board metals."
+  ],
+  "environmental_impact": "Landfilling takes centuries to degrade and leaches brominated flame retardants and heavy metals into soil."
+}

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="800dp"
+    android:viewportWidth="360"
+    android:viewportHeight="800">
+
+    <!-- ===================================== -->
+    <!-- 1. UPPER SWEEPING EMERALD LAYERS      -->
+    <!-- ===================================== -->
+
+    <path
+        android:fillColor="#183B6D53"
+        android:pathData="M245,-10 C220,95 170,205 0,275 L0,-10 Z" />
+
+    <path
+        android:fillColor="#12618A70"
+        android:pathData="M360,90 C305,160 260,195 205,215 C270,255 315,230 360,195 Z" />
+
+    <path
+        android:fillColor="#185A806A"
+        android:pathData="M0,275 C75,250 130,235 190,190 C245,150 290,95 310,0 L360,0 L360,300 C280,325 200,290 135,300 C80,305 35,300 0,330 Z" />
+
+    <!-- Upper golden contour -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#55D5E5C5"
+        android:strokeWidth="1.2"
+        android:pathData="M245,-5 C220,105 160,220 0,275" />
+
+    <!-- ===================================== -->
+    <!-- 2. BOTANICAL LEAVES                   -->
+    <!-- ===================================== -->
+
+    <!-- Large right leaf -->
+    <path
+        android:fillColor="#6688B99A"
+        android:pathData="M180,260 C205,180 270,135 315,125 C305,190 255,245 180,260 Z" />
+
+    <!-- Smaller left leaf -->
+    <path
+        android:fillColor="#5588B99A"
+        android:pathData="M180,260 C165,205 125,175 95,170 C100,220 135,250 180,260 Z" />
+
+    <!-- Central leaf -->
+    <path
+        android:fillColor="#338EB99A"
+        android:pathData="M180,265 C160,220 160,180 180,145 C205,190 205,230 180,265 Z" />
+
+    <!-- Leaf veins -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#668FBEA4"
+        android:strokeWidth="1.2"
+        android:pathData="M180,260 C220,205 260,165 305,135" />
+
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#668FBEA4"
+        android:strokeWidth="1"
+        android:pathData="M180,260 C150,215 125,190 100,175" />
+
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#558FBEA4"
+        android:strokeWidth="1"
+        android:pathData="M180,260 C180,215 180,180 180,145" />
+
+    <!-- ===================================== -->
+    <!-- 3. OVERLAPPING MIDDLE GLASS WAVES     -->
+    <!-- ===================================== -->
+
+    <path
+        android:fillColor="#1CFFFFFF"
+        android:pathData="M0,330 C65,275 140,285 205,345 C265,405 310,400 360,355 L360,490 C290,535 230,510 170,455 C105,395 55,405 0,465 Z" />
+
+    <path
+        android:fillColor="#16D4E8D5"
+        android:pathData="M0,430 C75,365 140,390 200,445 C265,505 315,490 360,455 L360,570 C285,610 220,580 160,535 C95,485 45,495 0,545 Z" />
+
+    <path
+        android:fillColor="#12FFFFFF"
+        android:pathData="M0,390 C65,335 125,345 180,395 C235,445 300,450 360,405 L360,475 C290,525 225,500 170,455 C105,405 50,420 0,475 Z" />
+
+    <!-- Middle flowing contour -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#55D5E5C5"
+        android:strokeWidth="1.1"
+        android:pathData="M-10,455 C65,390 125,395 185,445 C245,495 305,490 370,445" />
+
+    <!-- Fine golden middle curve -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#44F8EED0"
+        android:strokeWidth="1.1"
+        android:pathData="M-10,620 C65,565 115,585 180,630 C245,675 300,660 370,610" />
+
+    <!-- ===================================== -->
+    <!-- 4. LOWER ROLLING LANDSCAPE            -->
+    <!-- ===================================== -->
+
+    <path
+        android:fillColor="#20FFFFFF"
+        android:pathData="M0,650 C55,610 100,625 155,680 C220,745 285,700 360,655 L360,800 L0,800 Z" />
+
+    <path
+        android:fillColor="#18D9E5D0"
+        android:pathData="M0,705 C70,665 110,690 165,730 C225,780 290,735 360,690 L360,800 L0,800 Z" />
+
+    <path
+        android:fillColor="#12FFFFFF"
+        android:pathData="M0,745 C55,720 105,735 155,765 C220,805 290,765 360,735 L360,800 L0,800 Z" />
+
+    <!-- Lower golden landscape contour -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#44F8EED0"
+        android:strokeWidth="1.1"
+        android:pathData="M-10,690 C65,635 115,650 175,705 C240,760 300,715 370,675" />
+
+    <!-- Fine ivory lower contour -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#33FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M-10,755 C55,720 105,735 165,775 C225,815 300,780 370,740" />
+
+    <!-- ===================================== -->
+    <!-- 5. DELICATE DECORATIVE DETAILS        -->
+    <!-- ===================================== -->
+
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#22FFFFFF"
+        android:strokeWidth="1.4"
+        android:pathData="M-10,350 C75,285 135,300 190,350 C250,405 305,395 370,345" />
+
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#33F8EED0"
+        android:strokeWidth="1"
+        android:pathData="M-10,305 C70,265 135,275 195,330 C255,385 310,380 370,335" />
+
+</vector>

@@ -1,0 +1,28 @@
+{
+  "item_name": "Computer Mouse (Wired / Wireless Optical)",
+  "hazard_level": "Low to Moderate (Moderate if containing a rechargeable lithium-ion battery)",
+  "hazards": [
+    "Lead-based solder in older circuit boards",
+    "Brominated flame retardants (BFRs) in the plastic shell",
+    "Alkaline or lithium-ion batteries in wireless models"
+  ],
+  "safe_handling": [
+    "Remove any removable AA/AAA batteries before storage",
+    "Keep the outer casing intact",
+    "Store in a dry e-waste bin"
+  ],
+  "unsafe_actions": [
+    "Do not crush or break the plastic housing",
+    "Do not burn cables or plastic shells",
+    "Do not dispose in regular municipal trash"
+  ],
+  "what_to_do_if_damaged": "If the casing is cracked, avoid sharp edges and place the mouse aside for authorised collection. If an internal battery is swollen, hot, or leaking, do not remove or handle it; keep people away and contact a qualified technician or emergency services as appropriate.",
+  "disposal_route": "Segregate removable batteries for battery recycling and hand the mouse over to a CPCB/SPCB-authorized e-waste recycler or PRO collection center.",
+  "recoverable_materials": [
+    "Copper (wiring and motor coils)",
+    "ABS and polycarbonate plastics",
+    "Trace gold and silver on circuit contacts",
+    "Steel and aluminum from scroll mechanisms"
+  ],
+  "environmental_impact": "Improper dumping causes microplastic pollution and leaches heavy metals and flame retardants into soil and groundwater; burning wires releases toxic dioxins."
+}

@@ -1,0 +1,28 @@
+{
+  "item_name": "Laptop / Notebook Computer",
+  "hazard_level": "High",
+  "hazards": [
+    "High-capacity lithium-ion battery pack posing fire and thermal-runaway risks if damaged",
+    "Lead-based solder, brominated flame retardants (BFRs), and beryllium copper on motherboards",
+    "Trace mercury in older CCFL-backlit LCD displays and arsenic/cadmium in semiconductors"
+  ],
+  "safe_handling": [
+    "Back up personal files and securely wipe/reset the storage drive",
+    "Power off completely and remove external accessories (USB dongles, SD cards)",
+    "Carry and store flat in a dry space without stacking heavy items on the lid"
+  ],
+  "unsafe_actions": [
+    "Never pry out an internal pouch battery with sharp screwdrivers or metal tools",
+    "Do not smash the display screen or burn plastic casings",
+    "Never dispose of laptops in municipal solid waste"
+  ],
+  "what_to_do_if_damaged": "If the screen is cracked, cover it with clear tape to prevent glass injuries. If the chassis is bulging or hot due to a swollen battery, isolate the laptop in a cool, fire-safe area and hand it directly to trained e-waste staff.",
+  "disposal_route": "Hand over to an OEM brand take-back center, certified IT asset refurbisher (if working), or a CPCB/SPCB-authorized e-waste recycler.",
+  "recoverable_materials": [
+    "Aluminum and magnesium alloy chassis",
+    "Gold, silver, palladium, and copper (motherboard and connectors)",
+    "Lithium, cobalt, and graphite (battery pack)",
+    "Neodymium magnets (speakers and cooling fans) and high-grade ABS plastics"
+  ],
+  "environmental_impact": "Improper dismantling releases toxic dioxins, heavy metals, and flame retardants into air and water, while wasting high-value precious and rare-earth metals."
+}
